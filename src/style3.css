@@ -1,0 +1,70 @@
+.project-container-1>img{
+  width: 250px;
+  height: 200px;
+ 
+}
+.project-container-1{
+  border: solid rgb(217, 17, 84) 2px;
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  color: white;
+
+  
+}
+.project-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  position: relative;
+  left:20px;
+}
+.project-11>h1{
+  font-size:30px;
+  padding: 10px;
+  font-weight:bolder ;
+  color: rgb(241, 176, 11);
+  text-align: center;
+ 
+}
+.project-11{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.project-1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+@media screen and (max-width:600px)
+{
+  .project-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project{
+    position: relative;
+    top: 50px;
+  }
+  .project-container{
+   margin-right: 22px;
+  }
+  .project-11{
+    margin-right:50px;
+  }
+  
+}
+@media screen and (min-width:1260px)
+{
+  .project-container-1{
+    margin: 40px;
+  }
+  .project-11{
+    position: relative;
+    left: 190px;
+    top: 20px;
+  }
+}
